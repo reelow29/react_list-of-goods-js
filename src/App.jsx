@@ -87,7 +87,7 @@ export const App = () => {
           <button
             type="button"
             className="button is-danger"
-            onClick={() => setGoods(resetGoods)}
+            onClick={resetGoods}
           >
             Reset
           </button>
